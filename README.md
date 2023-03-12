@@ -36,10 +36,8 @@ You may also see any lint errors in the console.
 Runs the server.
 
 
-### `Finished images` , more can be seen in the finished folder.
+### `Finished images` , more can be seen in the finished folder, better quality picture to be added soon.
 
 ![Finished version image](https://github.com/KChimev/Pitstop-React-Web-App/blob/main/Finished-pics/pit1.jpg?raw=true)
-![Finished version image](https://github.com/KChimev/Pitstop-React-Web-App/blob/main/Finished-pics/pit22.jpg?raw=true)
+![Finished version image](https://github.com/KChimev/Pitstop-React-Web-App/blob/main/Finished-pics/pit2.jpg?raw=true)
 
-![Finished version image](https://github.com/KChimev/Pitstop-React-Web-App/blob/main/Finished-pics/pit11.jpg?raw=true)
-![Finished version image](https://github.com/KChimev/Pitstop-React-Web-App/blob/main/Finished-pics/pit22.jpg?raw=true)
