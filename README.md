@@ -38,4 +38,4 @@ Runs the server.
 
 ### `Finished images` , more can be seen in the finished folder.
 
-![Finished version image](https://github.com/KChimev/Pitstop-React-Web-App/blob/main/Finished-pics/pit1.png?raw=true)
+![Finished version image](https://github.com/KChimev/Pitstop-React-Web-App/blob/main/Finished-pics/pit1.jpeg?raw=true)
