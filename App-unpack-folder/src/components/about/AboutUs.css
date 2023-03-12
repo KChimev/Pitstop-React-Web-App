@@ -1,0 +1,32 @@
+* {
+  font-family: var(--font-family);
+}
+.about-us__container {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-inline: 30%;
+  padding-block: 4rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  .about-us__container {
+    padding-inline: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-us__container {
+    padding-inline: 10%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-us__container {
+    padding-inline: 3%;
+  }
+}

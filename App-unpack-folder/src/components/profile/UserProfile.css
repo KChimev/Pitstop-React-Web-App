@@ -1,0 +1,66 @@
+.user-profile__container {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.user__info {
+  font-size: 24px;
+  background: black;
+  color: #fff;
+  width: fit-content;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.user__button {
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: black;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+.user-change__input {
+  font-weight: 600;
+  padding: 0.5rem 0.5rem;
+  background: #fff;
+  color: black;
+  font-size: 16px;
+}
+.user-change__button {
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: black;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+.user-change__button:hover {
+  background: black;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.user-change__button:active {
+  scale: 0.97;
+}
+.user__button:hover {
+  padding: 7px 15px;
+  background: black;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.user__button:active {
+  scale: 0.97;
+}

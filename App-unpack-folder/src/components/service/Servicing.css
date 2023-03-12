@@ -1,0 +1,200 @@
+* {
+  font-family: var(--font-family);
+}
+.service__container {
+  background: url('../assets/servicing.jpg');
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position-y: 2rem;
+  background-size: cover;
+  padding: 4rem 2rem 2rem 2rem;
+}
+.service__enquiry-container {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+}
+.service__enquiry-container p {
+  font-size: 20px;
+  width: 40%;
+}
+.service__enquiry-container p span {
+  font-size: 24px;
+  font-weight: 300;
+}
+.service__enquiry {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  background: #fff;
+  padding: 2rem;
+
+  gap: 1rem;
+  font-weight: 600;
+}
+.service__enquiry h1 {
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+.service__enquiry label {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+.service__enquiry label input {
+  height: 1.5rem;
+  width: 60%;
+  outline: #fff;
+  border: 1px solid rgb(164, 164, 164);
+}
+.service__enquiry label p {
+  flex-shrink: 0;
+  width: 40%;
+}
+.service__enquiry-container {
+  display: flex;
+  padding: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 90%;
+}
+.service__enquiry label:last-of-type {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.service__enquiry label:last-of-type input {
+  width: 100%;
+  font-size: 20px;
+  height: 2rem;
+  padding: 0.5rem;
+}
+.submit__enquiry {
+  width: 40%;
+  background: black;
+  color: #fff;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.submit__enquiry:active {
+  scale: 0.97;
+}
+.submit__enquiry:hover {
+  background: #fff;
+  color: black;
+  border: 3px solid black;
+  padding: 14px;
+}
+.enquiry__info {
+  padding: 2rem;
+  width: 100%;
+  flex: 1;
+}
+.enquiry__info h1 {
+  font-weight: 100;
+  margin-bottom: 1rem;
+  font-size: 26px;
+}
+.enquiry__info p {
+  width: 100%;
+}
+.request__result {
+  background-color: rgb(29, 143, 50);
+  color: #ffffff;
+
+  height: fit-content;
+  padding: 1rem;
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .service__enquiry-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .service__container {
+    padding-inline: 1rem;
+  }
+  .service__enquiry-container {
+    padding: 0;
+  }
+  .service__enquiry label {
+    flex-direction: column;
+    width: 100%;
+  }
+  .service__enquiry label p {
+    width: 100%;
+  }
+  .service__enquiry label input {
+    width: 100%;
+  }
+  .service__enquiry {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .submit__enquiry {
+    min-width: fit-content;
+  }
+}
+.scale-up-bottom {
+  -webkit-animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transform: translate(-50%, -50%);
+}
+@-webkit-keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+}
+@keyframes scale-up-bottom {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+}
+.scale-down-bottom {
+  animation: scale-down-bottom 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes scale-down-bottom {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+  }
+}
