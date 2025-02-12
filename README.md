@@ -18,7 +18,6 @@ Challenging parts of this project include:
 The project is made to be mobile and tablet responsive which can be seen in the finished pictures, as well as adding usability features, such as `scroll to top`, hididng the search menu on scroll-down and displaying core information in the adverts.
 All data submitted by the user is sent to the server where realistically it would be saved to the database or perform actions based by the contents.
 
-## Available Scripts
 
 ### `Finished images` , more can be seen in the finished folder, better quality picture to be added soon.
 
